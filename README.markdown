@@ -61,7 +61,9 @@ pull request.
 
 ## TODO
 1. Add an option to disable recursive monitoring of directories
-2. Add more macro modifiers
+2. Add more macro modifiers:
+   * Modifier to enclose macro in quotes
+   * Modifier to escape whitespaces 
 3. Improve logging: add better support for viewing stdout and stderr from
    commands.
 4. Add a notification to the *Commander* list to indicate when a file has
