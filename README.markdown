@@ -7,7 +7,7 @@ directories for changes, and runs commands using `cmd.exe`.
 ## Setup
 Each *Commander* is configured with a number of directories, a list of
 commands, an optional working directory and an optional file filter. See
-`Setup_Commander.png` for reference in the following.
+[Setup_Commander.png][setup commander] for reference in the following.
 *Paths* are monitoried recursively for creation, deletion, renames and
 changes. *Commands* are separated by newlines, and are executed one by one
 using `cmd.exe /c`. *Filters* is a [regular expression] towards which the full
@@ -71,3 +71,4 @@ pull request.
 
 
 [regular expression]: http://msdn.microsoft.com/en-us/library/az24scfc.aspx
+[setup commander]: https://github.com/spiiph/WatcherAndCommander/blob/master/Setup_Commander.png
