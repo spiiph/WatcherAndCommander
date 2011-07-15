@@ -10,7 +10,7 @@ commands, an optional working directory and an optional file filter. See
 `Setup_Commander.png` for reference in the following.
 *Paths* are monitoried recursively for creation, deletion, renames and
 changes. *Commands* are separated by newlines, and are executed one by one
-using `cmd.exe /c`. *Filters* is a regular expression[1] towards which the full
+using `cmd.exe /c`. *Filters* is a [regular expression] towards which the full
 path of the changed file is matched. *Working Directory* determines from
 which directory commands are run. If *Working Directory* is unset, commands
 are run from the current working directory.
@@ -70,4 +70,4 @@ pull request.
 6. Do some proper testing
 
 
-[1]: http://msdn.microsoft.com/en-us/library/az24scfc.aspx
+[regular expression]: http://msdn.microsoft.com/en-us/library/az24scfc.aspx
