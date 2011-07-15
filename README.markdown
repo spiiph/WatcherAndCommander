@@ -20,7 +20,7 @@ are run from the current working directory.
 
 <table>
 <tr><td><tt>${path}</tt></td><td>Full path of the changed file</td></tr>
-<tr><td><tt>${relpath}</tt></td><td>Path of the changed file relative to the *Working Directory*</td></tr>
+<tr><td><tt>${relpath}</tt></td><td>Path of the changed file relative to the <em>Working Directory</em></td></tr>
 <tr><td><tt>${name}</tt></td><td>Name of the changed file</td></tr>
 <tr><td><tt>${directory}</tt></td><td>Directory of the changed file</td></tr>
 </table>
@@ -30,7 +30,7 @@ i.e. the path before the rename operation:
 
 <table>
 <tr><td><tt>${oldpath}</tt></td><td>Full path of the original file</td></tr>
-<tr><td><tt>${oldrelpath}</tt></td><td>Path of the original file relative to the *Working Directory*</td></tr>
+<tr><td><tt>${oldrelpath}</tt></td><td>Path of the original file relative to the <em>Working Directory</em></td></tr>
 <tr><td><tt>${oldname}</tt></td><td>Name of the original file</td></tr>
 <tr><td><tt>${olddirectory}</tt></td><td>Directory of the original file</td></tr>
 </table>
@@ -42,7 +42,7 @@ expression, one can use the macro `${e:relpath}`. These are the macro
 modifiers that are currently supported:
 
 <table>
-<tr><td><tt>${e:<macro>}</tt></td><td>Replace `\` and `.` with `\\` and `\.` respectively</td></tr>
+<tr><td><tt>${e:<macro>}</tt></td><td>Replace <tt>\</tt> and <tt>.</tt> with <tt>\\</tt> and <tt>\.</tt> respectively</td></tr>
 </table>
 
 ## Disclaimer
