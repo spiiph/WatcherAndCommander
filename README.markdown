@@ -42,7 +42,7 @@ expression, one can use the macro `${e:relpath}`. These are the macro
 modifiers that are currently supported:
 
 <table>
-<tr><td><tt>${e:<macro>}</tt></td><td>Replace <tt>\</tt> and <tt>.</tt> with <tt>\\</tt> and <tt>\.</tt> respectively</td></tr>
+<tr><td><tt>${e:&lt;macro&gt;}</tt></td><td>Replace <tt>\</tt> and <tt>.</tt> with <tt>\\</tt> and <tt>\.</tt> respectively</td></tr>
 </table>
 
 ## Disclaimer
